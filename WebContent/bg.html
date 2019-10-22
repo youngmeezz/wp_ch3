@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+#logo {
+	width:2000px;
+	height:100px;
+	background: url(/wp_ch3/images/naver.jpg) -4px -3px no-repeat;
+
+
+}
+#search-input{
+	width: 500px;
+	height: 40px;
+	border: 1px solid #0089FF;
+}
+#search-input input,#search-input a{
+	display: block;
+	float: left;
+	
+}
+#search-input input{
+	font-size: 18px;
+	padding: 5px 5px 5px 10px;
+	width: 400px;
+	height: 30px;
+	border: none;
+}
+
+#search-input input:focus {
+	outline:none;
+	}
+	
+#search-input a{
+	border: 1px solid #666;
+	width: 40px;
+	height: 38px;
+	text-indet: 110%;
+	overflow: hidden;
+}
+
+#search-input a.kbd{
+	border :none;
+	background: url(/wp_ch3/images/keyboard.png) 5px -2px no-repeat;
+}
+
+#search-input a.btn{
+	border :none;
+	background: url(/wp_ch3/images/daum-splite.png) -42px -232px no-repeat;
+}
+
+
+</style>
+</head>
+<body>
+	<h1 id="logo"></h1>
+	
+	<div id="search-input">
+		<input type="text">
+		<a class= kbd href="#"></a>
+		<a class= btn href="#"></a>
+	</div>
+</body>
+</html>
